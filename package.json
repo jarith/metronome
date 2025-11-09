@@ -1,0 +1,36 @@
+{
+  "name": "metronome",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React Native iOS app with Metro bundler",
+  "packageManager": "yarn@4.10.3",
+  "scripts": {
+    "run:ios": "react-native run-ios",
+    "dev": "react-native start",
+    "start": "yarn dev && yarn run:ios",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-native": "0.82.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.28.5",
+    "@babel/preset-env": "7.28.5",
+    "@babel/runtime": "7.28.4",
+    "@react-native-community/cli": "20.0.2",
+    "@react-native/babel-preset": "0.82.1",
+    "@react-native/metro-config": "0.82.1",
+    "@react-native/typescript-config": "0.82.1",
+    "@types/react": "19.2.2",
+    "@types/react-test-renderer": "19.1.0",
+    "@typescript-eslint/eslint-plugin": "8.46.3",
+    "@typescript-eslint/parser": "8.46.3",
+    "eslint": "9.39.1",
+    "eslint-config-love": "133.0.0",
+    "prettier": "3.6.2",
+    "react-test-renderer": "19.2.0",
+    "typescript": "5.9.3"
+  }
+}

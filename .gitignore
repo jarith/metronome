@@ -1,0 +1,86 @@
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Xcode
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+**/xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.app.dSYM
+*.dSYM/
+ios/.xcode.env.local
+
+# Android/IntelliJ
+.idea/
+.gradle
+local.properties
+*.iml
+*.hprof
+.cxx/
+*.keystore
+!debug.keystore
+
+# IDEs and Editors
+.vscode/
+.fleet/
+*.swp
+*.swo
+*~
+
+# node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log*
+
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/cache/
+.yarn/install-state.gz
+.pnp.*
+
+# Environment variables
+.env
+.env.local
+.env*.local
+
+# Metro bundler
+.metro-health-check*
+metro-cache/
+
+# React Native
+*.jsbundle
+
+# Ruby / CocoaPods
+**/Pods/
+/vendor/bundle/
+
+# fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
+
+# Testing
+/coverage
+
+# Build tools
+.eslintcache
