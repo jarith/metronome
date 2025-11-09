@@ -1,0 +1,74 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Dependencies
+node_modules/
+.yarn/cache/
+.yarn/install-state.gz
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native/Generated folders (Expo managed workflow)
+/ios
+/android
+.kotlin/
+
+# Native signing/certificates
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro
+.metro-health-check*
+
+# Builds
+build/
+.bundle/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+*.log
+logs/
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# Environment variables
+.env*.local
+.env
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE/Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Misc
+app-example
